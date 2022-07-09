@@ -62,6 +62,16 @@ blockquote:nth-child(5)
 
 }
 
+#titclasesvirtuales
+{
+  color: black;
+  font: 50px Arial;
+  text-shadow: black 2px 2px 6px;
+  -webkit-text-stroke: 1px #D100FF;
+  margin-bottom: 50px;
+
+
+}
 
 #barrasuperior1
 {
@@ -88,7 +98,7 @@ li
 #tituloprincipal{
   /* color: violet; */
   /* background-color:pink; */
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   margin: auto;
   font: 70px "MiFuente" , Arial;
@@ -105,10 +115,7 @@ aside
   margin-left: 50px;
 
 }
-figcaption
-{
-  font: 20px Verdana;
-}
+
 
 
 section
@@ -116,7 +123,7 @@ section
   font: 30px Arial;
   /* background-color:#F3E3FF; */
   height: 790px;
-  padding-top: 10px;
+  padding-top: 1px;
   /* 500 + 50 porque aside es un flotante*/
   margin-left: 550px;
   padding-left: 50px;
@@ -131,14 +138,30 @@ article
 
 figure
 {
+border-bottom: 1px solid #D100FF;
 margin-top: 80px;
+}
+
+img
+{
+  box-shadow: #45394F 10px 10px 30px;
+}
+
+figcaption
+{
+  margin-top: 10px;
+  font: #45394F;
+  color: #45394F;
+  font: 20px verdana;
+  text-align: right;
 }
 #pieprincipal
 {
   /* background-color:gray; */
-  font: 20px verdana;
-  margin-top: 150px;
-  margin-left: 92px;
+  color: #715F80;
+  font: 20px arial;
+  margin-top: 210px;
+  margin-left: 90px;
   /* align-items: center; */
   clear: both;
 }

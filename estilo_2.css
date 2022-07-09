@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "MiFuente";
+  src:url('National Cartoon.ttf');
+}
+
+
+body
+{
+  background-color:black;
+}
+/* nav
+{
+  background-color: gray;
+} */
+nav
+{
+  background: pink;
+  padding: auto;
+}
+
+h2
+{
+ font: bold 50px Verdana;
+}
+blockquote
+{
+  /* padding: auto; */
+  border: 3px solid black;
+  border-radius: 15px 15px 10px 10px;
+  font: 40px Calibri;
+  text-align: center;
+  box-shadow: 10px 10px;
+  background-color: white;
+
+}
+
+
+#barrasuperior1
+{
+  background-color: blue;
+}
+
+li
+{
+  background-color:orange;
+  display: inline;
+  margin: 10px;
+
+
+}
+
+/* header
+{
+  background-color:blue;
+} */
+
+#tituloprincipal{
+  /* color: violet; */
+  background-color:pink;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  font: bold 70px "MiFuente", National Cartoon, Arial;
+  /* text-shadow: black 5px 5px 5px; */
+
+}
+
+aside
+{
+  background-color: violet;
+  height: 800px;
+  float: left;
+  margin-left: 50px;
+
+}
+
+
+section
+{
+  font: 30px Arial;
+  background-color:#F3E3FF;
+  height: 790px;
+  padding-top: 10px;
+  /* 500 + 50 porque aside es un flotante*/
+  margin-left: 550px;
+  padding-left: 50px;
+
+}
+
+#pieprincipal
+{
+  background-color:gray;
+  margin: 100px;
+  clear: both;
+}

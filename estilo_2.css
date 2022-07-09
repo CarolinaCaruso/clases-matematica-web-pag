@@ -3,24 +3,26 @@
   src:url('National Cartoon.ttf');
 }
 
+@font-face {
+  font-family: "FuenteSangre";
+  src:url('youmurdererbb_reg.ttf');
+}
 
 body
 {
-  background-color:black;
+  background-color:#FCF1FF;
 }
 /* nav
 {
   background-color: gray;
 } */
-nav
-{
-  background: pink;
-  padding: auto;
-}
 
 h2
 {
  font: bold 50px Verdana;
+ text-shadow: violet 5px 5px 10px;
+
+ /* border-bottom: 1px solid black; */
 }
 blockquote
 {
@@ -28,25 +30,54 @@ blockquote
   border: 3px solid black;
   border-radius: 15px 15px 10px 10px;
   font: 40px Calibri;
-  text-align: center;
+  text-align: right;
   box-shadow: 10px 10px;
-  background-color: white;
+  /* background: linear-gradient(to left, #FCF1FF, #D8AAFF, #D100FF); */
+  padding: 10px;
+
+}
+blockquote:nth-child(1)
+{
+  background: linear-gradient(to left, #FCF1FF 10%, #D8AAFF 30%, #D100FF 60%);
+
+}
+blockquote:nth-child(2)
+{
+  background: linear-gradient(to left, #FCF1FF 25%, #D8AAFF, #D100FF);
+
+}
+blockquote:nth-child(3)
+{
+  background: linear-gradient(to left, #FCF1FF 30%, #D8AAFF, #D100FF);
+
+}
+blockquote:nth-child(4)
+{
+  background: linear-gradient(to left, #FCF1FF 40%, #D8AAFF, #D100FF);
+
+}
+blockquote:nth-child(5)
+{
+  background: linear-gradient(to left, #FCF1FF 50%, #D8AAFF, #D100FF);
 
 }
 
 
 #barrasuperior1
 {
-  background-color: blue;
+  border-bottom: 1px solid #D100FF;
+  padding: 20px;
+  margin: 50px;
 }
 
 li
 {
-  background-color:orange;
+  font: 30px Times New Roman;
+  color: #D100FF;
+  background-color:#FCF1FF;
   display: inline;
-  margin: 10px;
-
-
+  margin: 50px;
+  text-shadow: gray 5px 1px 10px;
 }
 
 /* header
@@ -56,40 +87,63 @@ li
 
 #tituloprincipal{
   /* color: violet; */
-  background-color:pink;
+  /* background-color:pink; */
   padding: 10px;
   text-align: center;
   margin: auto;
-  font: bold 70px "MiFuente", National Cartoon, Arial;
+  font: 70px "MiFuente" , Arial;
   /* text-shadow: black 5px 5px 5px; */
 
 }
 
 aside
 {
-  background-color: violet;
+
+  /* background-color: violet; */
   height: 800px;
   float: left;
   margin-left: 50px;
 
+}
+figcaption
+{
+  font: 20px Verdana;
 }
 
 
 section
 {
   font: 30px Arial;
-  background-color:#F3E3FF;
+  /* background-color:#F3E3FF; */
   height: 790px;
   padding-top: 10px;
   /* 500 + 50 porque aside es un flotante*/
   margin-left: 550px;
   padding-left: 50px;
 
+
+}
+article
+{
+ /* margin-top: 50px; */
+
 }
 
+figure
+{
+margin-top: 80px;
+}
 #pieprincipal
 {
-  background-color:gray;
-  margin: 100px;
+  /* background-color:gray; */
+  font: 20px verdana;
+  margin-top: 150px;
+  margin-left: 92px;
+  /* align-items: center; */
   clear: both;
+}
+
+address
+{
+  display: inline;
 }
